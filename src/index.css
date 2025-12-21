@@ -9,7 +9,9 @@
   --fontplayfair: "Playfair Display", serif;
   --fontcliclerscript: "Clicker Script", cursive;
 
+  --font-size-h1: 220px;
   --font-size-body: 20px;
+  --font-size-body2:22px;
   --font-size-h2:54px;
   --font-size-button:16px;
   --font-size-14:14px;
@@ -23,4 +25,8 @@
   --color-light-black:#1E1E1E;
   --color-yellow-pastel:#F9C06A;
   --color-yellow-pastel-opacity:#F9C06A6B
+}
+
+p {
+  font-family: var(--fontplayfair);
 }
