@@ -1,5 +1,5 @@
 import "./style.css"
-
+import { Button } from "../Button-order-now"
 export const Main = () => {
     return (
 
@@ -14,6 +14,8 @@ export const Main = () => {
                 </div>
                 
             </div>
+
+            <Button text={"Order Now"}/>
         </section>
     )
 }
