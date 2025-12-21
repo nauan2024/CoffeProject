@@ -1,10 +1,19 @@
 import "./style.css"
 
 export const Main = () => {
-    return(
-        
+    return (
+
         <section className="main">
-            <nav></nav>
+            <div className="content-main">
+                <div className="content-text-main">
+                    <span>We’ve got your morning covered with</span>
+                    <h1>Coffee</h1>
+                    <p>It is best to start your day with a cup of coffee. Discover the
+                        best flavours coffee you will ever have. We provide the best
+                        for our customers.</p>
+                </div>
+                
+            </div>
         </section>
     )
 }
