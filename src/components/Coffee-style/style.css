@@ -1,6 +1,30 @@
 @import url("../../index.css");
 
 .section_coffe_style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 82px 93px;
+    gap: 32px;
     
+}
+
+.content-top-coffestyle {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-top-coffestyle h2{
+    font-size: var(--font-size-h2);
+    color:var(--color-brown);
+    font-family: var(--fontplayfair);
+    font-weight: bold;
+
+}
+
+.content-top-coffestyle p{
+    color: var(--color-light-gray);
+    font-size: var(--font-size-body);
 }

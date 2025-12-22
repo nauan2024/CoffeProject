@@ -19,6 +19,7 @@
 .group1-bestcoffe {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 25px;
 }
 
@@ -32,6 +33,6 @@
 
 #blast {
     position: absolute;
-    bottom: -40px;
+    bottom: -100px;
     left: 0;
 }
