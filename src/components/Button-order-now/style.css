@@ -8,4 +8,5 @@
     color: var(--color-light-black);
     text-decoration: none;
     font-weight: bold;
+    align-self: flex-start;
 }

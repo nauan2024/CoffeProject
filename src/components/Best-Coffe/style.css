@@ -1,0 +1,37 @@
+@import url("../../index.css");
+
+.section-best-coffe {
+    display: flex;
+    gap: 95px;
+    padding: 82px 93px;
+    align-items: center;
+    position: relative;
+
+}
+
+.section-best-coffe h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-brown);
+}
+
+
+
+.group1-bestcoffe {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.group1-bestcoffe p {
+    color: var(--color-light-gray);
+    line-height: 34px;
+    font-size: var(--font-size-body);
+    width: 585px;
+}
+
+
+#blast {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
