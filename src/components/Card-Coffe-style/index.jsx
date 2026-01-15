@@ -11,7 +11,9 @@ export const Card_Coffe_style = ({ img, h3, tipo, preco, text2 }) => {
                     <p className="price">{preco}</p>
                 </div>
             </div>
+            <div className="container_button_card_coffe_style">
             <Button text={text2} />
+            </div>
         </div>
     )
 }

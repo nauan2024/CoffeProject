@@ -1,6 +1,6 @@
 import "./style.css"
 import { Main } from "../Main"
-import { Header } from "../header"
+import { Header } from "../Header"
 import backgroundimg from "../../assets/img/mainbackground.svg"
 export const Home = () => {
     return(

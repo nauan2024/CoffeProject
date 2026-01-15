@@ -28,3 +28,8 @@
     color: var(--color-light-gray);
     font-size: var(--font-size-body);
 }
+
+.container-cards-coffe-style{
+    display: flex;
+    gap: 20px;
+}
